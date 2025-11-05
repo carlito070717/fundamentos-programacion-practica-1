@@ -177,8 +177,12 @@ function sumaHastaN(n) {
  * Ejemplo: tablaMultiplicar(3) debe retornar [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
  */
 function tablaMultiplicar(numero) {
-  // TODO: Genera un array con la tabla de multiplicar
+  // Usé un bucle for del 1 al 10 para multiplicar el número por cada valor
+  // y agregué cada resultado al array con push()
   const tabla = [];
+  for (let i = 1; i <= 10; i++) {
+    tabla.push(numero * i);
+  }
   return tabla;
 }
 
@@ -189,8 +193,12 @@ function tablaMultiplicar(numero) {
  * Ejemplo: numerosPares(10) debe retornar [2, 4, 6, 8, 10]
  */
 function numerosPares(n) {
-  // TODO: Crea un array con todos los nÃºmeros pares hasta n
+  // Usé un bucle for empezando en 2 e incrementando de 2 en 2
+  // para obtener solo números pares hasta n
   const pares = [];
+  for (let i = 2; i <= n; i += 2) {
+    pares.push(i);
+  }
   return pares;
 }
 
