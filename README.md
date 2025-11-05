@@ -70,7 +70,7 @@ Este repositorio contiene mi solución a la práctica de **Fundamentos de Álgeb
 
 **Puntos obtenidos: 30/30**
 
----
+---------------------------
 
 ## 📈 Calificación Final
 
@@ -223,15 +223,15 @@ git log --oneline --graph --decorate
 ## 🤝 Agradecimientos
 
 - **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso y la práctica
-- **Compañeros del Grupo [A/B/C]** por el apoyo mutuo
+- **Compañeros del Grupo [C]** por el apoyo mutuo
 - **Tecnológico de Software** por la formación integral
 
 ---
 
 ## 📧 Contacto
 
-- **Email Institucional:** [tu-correo@institucional.edu.mx]
-- **GitHub:** [@TU-USUARIO](https://github.com/TU-USUARIO)
+- **Email Institucional:** [carlos.llanes@tecdesoftware.edu.mx]
+- **GitHub:** [@carlito070717](https://github.com/carlito070717)
 
 ---
 
@@ -245,6 +245,6 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 **⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
-Hecho con 💙 por [Tu Nombre] - 2025
+Hecho con 💙 por Carlos Alfonso LLanes - 2025
 
 </div>

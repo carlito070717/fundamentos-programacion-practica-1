@@ -355,7 +355,7 @@ function obtenerColumna(matriz, indiceColumna) {
   // el elemento en la posición indiceColumna de cada fila
   const columna = [];
   for (let i = 0; i < matriz.length; i++) {
-    columna.push(matriz[i][indiceColumna]);
+    columna.push(matriz[i][indiceColumna]);   
   }
   return columna;
 }
