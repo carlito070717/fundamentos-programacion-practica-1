@@ -227,8 +227,10 @@ function sumaArray(numeros) {
  * @returns {number} - Promedio de los nÃºmeros
  */
 function promedioArray(numeros) {
-  // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+  // Reutilicé la función sumaArray para obtener la suma total
+  // y la dividí entre la cantidad de elementos (numeros.length)
+  const suma = sumaArray(numeros);
+  return suma / numeros.length;
 }
 
 /**
