@@ -351,8 +351,12 @@ function obtenerFila(matriz, indiceFila) {
  * Ejemplo: obtenerColumna([[1, 2], [3, 4], [5, 6]], 0) debe retornar [1, 3, 5]
  */
 function obtenerColumna(matriz, indiceColumna) {
-  // TODO: Extrae todos los elementos de la columna indicada
+  // Usé un bucle for para recorrer todas las filas y extraer
+  // el elemento en la posición indiceColumna de cada fila
   const columna = [];
+  for (let i = 0; i < matriz.length; i++) {
+    columna.push(matriz[i][indiceColumna]);
+  }
   return columna;
 }
 
