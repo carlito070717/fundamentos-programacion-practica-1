@@ -299,8 +299,16 @@ function invertirArray(arr) {
  * Ejemplo: crearMatriz(2, 3) debe retornar [[0, 0, 0], [0, 0, 0]]
  */
 function crearMatriz(filas, columnas) {
-  // TODO: Crea una matriz de filas x columnas llena de ceros
+  // Usé dos bucles for anidados: el externo crea las filas y el interno
+  // llena cada fila con ceros según el número de columnas
   const matriz = [];
+  for (let i = 0; i < filas; i++) {
+    const fila = [];
+    for (let j = 0; j < columnas; j++) {
+      fila.push(0);
+    }
+    matriz.push(fila);
+  }
   return matriz;
 }
 
