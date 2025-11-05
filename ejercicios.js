@@ -12,9 +12,8 @@
  * @returns {Object} - Objeto con nombre, edad y carrera
  */
 function miInformacion() {
-  // TODO: Declara las variables nombre, edad y carrera
-  // Ejemplo: const nombre = "Juan";
-  
+  // Declaré las variables con mis datos personales usando const
+  // porque son valores que no cambiarán durante la ejecución
   const nombre = "Carlos";
   const edad = 18;
   const carrera = "Ingeniería de Software";
@@ -29,8 +28,8 @@ function miInformacion() {
  * @returns {Object} - Objeto con suma, resta, multiplicaciÃ³n y divisiÃ³n
  */
 function operacionesBasicas(a, b) {
-  // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
-  
+  // Realicé las cuatro operaciones aritméticas básicas
+  // usando los parámetros a y b recibidos
   const suma = a + b;
   const resta = a - b;
   const multiplicacion = a * b;
@@ -47,7 +46,7 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
- Area = base * altura
+  Area = base * altura
   return Area;
 }
 
@@ -59,7 +58,8 @@ function areaRectangulo(base, altura) {
  * @returns {number} - Temperatura en Fahrenheit
  */
 function celsiusAFahrenheit(celsius) {
-  // TODO: Implementa la conversiÃ³n
+  // Implementé la fórmula de conversión F = C * 9/5 + 32
+  // usando directamente el parámetro celsius recibido
   const fahrenheit = celsius * 9/5 + 32;
   return fahrenheit;
 }
@@ -74,8 +74,8 @@ function celsiusAFahrenheit(celsius) {
  * @returns {string} - "par" o "impar"
  */
 function parOImpar(numero) {
-  // TODO: Usa el operador % (módulo) para determinar si es par o impar
-  // Pista: Un número es par si numero % 2 === 0
+  // Usé el operador módulo (%) para verificar divisibilidad por 2
+  // Si el residuo es 0, el número es par; si no, es impar
   if (numero % 2 === 0) {
     return "par";
   } else {
@@ -89,7 +89,8 @@ function parOImpar(numero) {
  * @returns {string} - "Aprobado" si nota >= 60, "Reprobado" si no
  */
 function evaluarNota(nota) {
-  // TODO: Implementa la lÃ³gica con if/else
+  // Implementé la lógica condicional simple: >= 60 es aprobado
+  // cualquier valor menor es reprobado
   if (nota >= 60){
     return "Aprobado"
   }else{
@@ -105,7 +106,8 @@ function evaluarNota(nota) {
  * @returns {number} - El nÃºmero mayor
  */
 function mayorDeTres(a, b, c) {
-  // TODO: Encuentra y retorna el mayor de los tres números
+  // Comparé cada número con los otros dos usando && (and lógico)
+  // para determinar cuál es mayor o igual a ambos
   if (a >= b && a >= c) {
     return a;
   } else if (b >= a && b >= c) {
@@ -121,7 +123,8 @@ function mayorDeTres(a, b, c) {
  * @returns {string} - "menor" (0-17), "adulto" (18-64), "mayor" (65+)
  */
 function clasificarEdad(edad) {
-  // TODO: Implementa la clasificación con if/else if/else
+  // Implementé rangos de edad usando if/else if/else
+  // 0-17: menor, 18-64: adulto, 65+: mayor
   if (edad >= 0 && edad <= 17) {
     return "menor";
   } else if (edad >= 18 && edad <= 64) {
@@ -143,7 +146,8 @@ function clasificarEdad(edad) {
  * @returns {number} - Factorial de n
  */
 function factorial(n) {
-  // TODO: Implementa usando un bucle for
+  // Usé un bucle for para multiplicar todos los números desde 1 hasta n
+  // Inicié resultado en 1 porque es el elemento neutro de la multiplicación
   let resultado = 1;
   for (let i = 1; i <= n; i++) {
     resultado *= i;
@@ -157,8 +161,13 @@ function factorial(n) {
  * @returns {number} - Suma de 1 + 2 + 3 + ... + n
  */
 function sumaHastaN(n) {
-  // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  // Usé un bucle for para sumar todos los números desde 1 hasta n
+  // Inicié suma en 0 porque es el elemento neutro de la suma
+  let suma = 0;
+  for(let i = 1; i <= n; i++){
+    suma += i;
+  }
+  return suma;
 }
 
 /**
