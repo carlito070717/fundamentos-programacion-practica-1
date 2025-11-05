@@ -105,8 +105,14 @@ function evaluarNota(nota) {
  * @returns {number} - El nÃºmero mayor
  */
 function mayorDeTres(a, b, c) {
-  // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return 0;
+  // TODO: Encuentra y retorna el mayor de los tres números
+  if (a >= b && a >= c) {
+    return a;
+  } else if (b >= a && b >= c) {
+    return b;
+  } else {
+    return c;
+  }
 }
 
 /**
