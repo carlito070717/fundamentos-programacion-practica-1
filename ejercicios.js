@@ -338,8 +338,9 @@ function sumaMatriz(matriz) {
  * Ejemplo: obtenerFila([[1, 2], [3, 4], [5, 6]], 1) debe retornar [3, 4]
  */
 function obtenerFila(matriz, indiceFila) {
-  // TODO: Retorna la fila indicada
-  return [];
+  // Simplemente retorné la fila en el índice especificado
+  // ya que cada fila es un array dentro de la matriz
+  return matriz[indiceFila];
 }
 
 /**
