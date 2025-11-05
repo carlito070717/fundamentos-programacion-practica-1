@@ -276,9 +276,12 @@ function filtrarMayores(numeros, limite) {
  * Ejemplo: invertirArray([1, 2, 3, 4]) debe retornar [4, 3, 2, 1]
  */
 function invertirArray(arr) {
-  // TODO: Invierte el orden de los elementos
-  // Pista: Puedes usar arr.reverse() o hacerlo manualmente
+  // Usé un bucle for recorriendo el array desde el final hacia el inicio
+  // y agregué cada elemento al nuevo array para invertir el orden
   const invertido = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    invertido.push(arr[i]);
+  }
   return invertido;
 }
 
