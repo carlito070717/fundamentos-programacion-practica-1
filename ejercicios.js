@@ -124,7 +124,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // Implementé rangos de edad usando if/else if/else
-  // 0-17: menor, 18-64: adulto, 65+: mayor
+  // 0-17: menor, 18-64: adulto, 65+:
   if (edad >= 0 && edad <= 17) {
     return "menor";
   } else if (edad >= 18 && edad <= 64) {
